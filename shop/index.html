@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>tienda de celulares contemporaneos</h1>
+
+        <input type="text" id="product-id" placeholder="Ingresa al Id del producto" id="product_id">
+        <button onclick="products()">Buscar producto</button>
+
+        <!-- <img id="product-image" src="img/product_1.png" alt="imagen del iphone 16" srcset=""> -->
+        <img src="img/product_1.png" alt="imagen del iphone 16" srcset="">
+
+        <p class="description" id="product-description"></p>
+        <p id="product-name"></p>
+        <p id="product-price"></p>
+
+        <button class="btn">
+            <span></span>
+            <p data-start="comprame" data-text="agregado" data-title="agregar al carrito"></p>
+        </button>
+        <p>Formas de Pago</p>
+    </div>
+    <script src="server.js"></script>
+</body>
+
+</html>
